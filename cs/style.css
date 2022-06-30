@@ -1,11 +1,29 @@
 #grid {
-    width: 600px;
-    height: 500px;
+    width: 800px;
+    height: 700px;
     display:flex;
     flex-wrap: wrap;
+    border: solid black 1px;
+    margin: auto;   
 }
 
 img {
     width: 200px;
     height: 200px;
 }
+
+h2 {
+    margin: auto;
+    text-align: center;
+}
+
+.grow img{
+    transition: 1s ease;
+    }
+    
+    .grow img:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+    }

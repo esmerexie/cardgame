@@ -15,10 +15,10 @@ const cardArray = [
         name: 'kiwi',
         Image: 'imgs/kiww.png',
     },
-    {
-        name: 'lime',
-        Image: 'imgs/lime.png',
-    },
+    // {
+    //     name: 'lime',
+    //     Image: 'imgs/lime.png',
+    // },
     {
         name: 'orange',
         Image: 'imgs/orange.png',
@@ -43,10 +43,10 @@ const cardArray = [
         name: 'kiwi',
         Image: 'imgs/kiww.png',
     },
-    {
-        name: 'lime',
-        Image: 'imgs/lime.png',
-    },
+    // {
+    //     name: 'lime',
+    //     Image: 'imgs/lime.png',
+    // },
     {
         name: 'orange',
         Image: 'imgs/orange.png',
@@ -65,7 +65,7 @@ let cardsChosenIds = []
 const cardsWon = []
 
 function createBoard() {
-    for(let i = 0; i < 14; i++) {
+    for(let i = 0; i < 12; i++) {
         const card = document.createElement('img')
         card.setAttribute('src', 'imgs/background.png')
         card.setAttribute('data-id', i)
