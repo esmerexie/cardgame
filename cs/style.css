@@ -1,0 +1,11 @@
+#grid {
+    width: 600px;
+    height: 500px;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
