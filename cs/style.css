@@ -1,3 +1,8 @@
+body {
+    background-image: url(/imgs/pinkcloud.jpg);
+    background-size: 100%;
+}
+
 #grid {
     width: 800px;
     height: 700px;
@@ -5,6 +10,7 @@
     flex-wrap: wrap;
     border: solid black 1px;
     margin: auto;   
+    background-color: white;
 }
 
 img {
